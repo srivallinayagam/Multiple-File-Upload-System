@@ -1,22 +1,22 @@
-"# Multiple-File-Upload-System"
-"# Multiple-File-Upload-System"
+"Multiple-File-Upload-System"
+"Multiple-File-Upload-System"
 
-"# Requirements: jdk-17 or above, maven apache 3.9.9, html ,css & javascript."
+"Requirements: jdk-17 or above, maven apache 3.9.9, html ,css & javascript."
 
-"# Add the jdk and maven to the system environment variables"
+"Add the jdk and maven to the system environment variables"
 
 
-"# Run the mvn -v command to check the maven apache version in the cmd line.
+"Run the mvn -v command to check the maven apache version in the cmd line.
 mvn clean install to install the dependencies and mvn spring-boot:run to run the spring boot"
 
-"# Open the web browser and search localhost:8080/index.html and your web page will open."
+"Open the web browser and search localhost:8080/index.html and your web page will open."
 
-"# The files uploaded in the html web page will be shown in the Uploads directory."
+"The files uploaded in the html web page will be shown in the Uploads directory."
 
-"# The Size of the file can be modified in the application.properties as per the needs."
+"The Size of the file can be modified in the application.properties as per the needs."
 
 
-"# Modify the code to the user preference and have fun coding."
+"Modify the code to the user preference and have fun coding."
 
 multi-file-upload-system/
 │
