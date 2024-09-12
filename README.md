@@ -1,44 +1,48 @@
-"Multiple-File-Upload-System"
-"Multiple-File-Upload-System"
+# Multi-File Upload System
 
-"Requirements: jdk-17 or above, maven apache 3.9.9, html ,css & javascript."
+## Overview
 
-"Add the jdk and maven to the system environment variables"
+This project is a simple multi-file upload system built with Spring Boot. It allows users to upload multiple files through a web interface. The files will be stored in a designated directory and can be customized based on your needs.
+
+## Requirements
+
+- **JDK**: 17 or above
+- **Maven**: Apache 3.9.9
+- **HTML, CSS & JavaScript**
+
+## Setup Instructions
+
+1. **Add JDK and Maven to System Environment Variables**
+
+   Make sure that JDK and Maven are added to your system environment variables to ensure they are recognized globally.
+
+2. **Verify Maven Installation**
+
+   Open your command line interface and run the following command to check your Maven version:
+   
+   ```
+   mvn -v
 
 
-"Run the mvn -v command to check the maven apache version in the cmd line.
-mvn clean install to install the dependencies and mvn spring-boot:run to run the spring boot"
+## Build and Run the Application
 
-"Open the web browser and search localhost:8080/index.html and your web page will open."
+**To install the dependencies, navigate to the project directory and run:**
+mvn clean install
 
-"The files uploaded in the html web page will be shown in the Uploads directory."
+**To run the Spring Boot application, use:**
+mvn spring-boot:run
 
-"The Size of the file can be modified in the application.properties as per the needs."
+## Access the Web Interface
 
+**Open your web browser and go to:**
+http://localhost:8080/index.html
+This will display the web page where you can upload files.
 
-"Modify the code to the user preference and have fun coding."
+## File Storage
+Uploaded files will be stored in the Uploads directory within the project. Ensure that this directory exists and is writable.
 
-multi-file-upload-system/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── multifileupload/
-│   │   │               ├── FileEntity.java
-│   │   │               ├── FileUploadController.java
-│   │   │               ├── MultiFileUploadApplication.java
-│   │   │               ├── FileRepository.java
-│   │   │               └── FileService.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── static/
-│   │           ├── index.html
-│   │           └── styles.css
-│
-├── Uploads/
-│   └── (this is where uploaded files will be stored)
-│
-├── pom.xml
-└── README.md
+## Configuration
+You can modify the size of the files that can be uploaded by adjusting the settings in the application.properties file located in src/main/resources/.
+
+## Customization
+Feel free to modify the code and configuration to better suit your preferences. Enjoy coding!
