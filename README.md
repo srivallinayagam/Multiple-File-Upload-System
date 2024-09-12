@@ -23,22 +23,33 @@ This project is a simple multi-file upload system built with Spring Boot. It all
    ```
    mvn -v
 
+   ```
+
 
 ## Build and Run the Application
 
 **To install the dependencies, navigate to the project directory and run:**
+
 ```
 mvn clean install
 
+```
+
 **To run the Spring Boot application, use:**
+
 ```
 mvn spring-boot:run
+
+```
 
 ## Access the Web Interface
 
 **Open your web browser and go to:**
+
 ```
 http://localhost:8080/index.html
+
+```
 
 This will display the web page where you can upload files.
 
