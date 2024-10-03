@@ -1,0 +1,5 @@
+com\example\multifileupload\FileUploadController.class
+com\example\multifileupload\FileService.class
+com\example\multifileupload\MultiFileUploadApplication.class
+com\example\multifileupload\FileEntity.class
+com\example\multifileupload\FileRepository.class
